@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>🌸 Ábreme 🌸</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffe6f0, #f9d6e5);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', sans-serif;
+      animation: fadeIn 2s ease-in;
+    }
+
+    button {
+      font-size: 2rem;
+      padding: 1rem 2rem;
+      background: #ff69b4;
+      border: none;
+      border-radius: 20px;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.3s, background-color 0.3s;
+      animation: popIn 1s ease;
+    }
+
+    button:hover {
+      background-color: #ff1493;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes popIn {
+      0% { transform: scale(0.7); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <button onclick="window.location.href='apology.html'">🌸 Ábreme 🌸</button>
+</body>
+</html>

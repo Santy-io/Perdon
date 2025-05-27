@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lo siento mucho</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('https://images.unsplash.com/photo-1504203705549-26f2053fe1c1');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+      animation: fadeIn 3s ease;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      animation: slideIn 1.5s ease;
+    }
+
+    iframe {
+      width: 560px;
+      height: 315px;
+      border: none;
+      margin-top: 20px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideIn {
+      0% {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>🌷 Lo siento mucho, perdóname. 🌷</h1>
+  <iframe 
+    src="https://www.youtube.com/embed/gltRZjeil84?autoplay=1&mute=1"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+  ></iframe>
+</body>
+</html>
